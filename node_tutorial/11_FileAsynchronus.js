@@ -1,5 +1,7 @@
 const {readFile , writeFile} = require('fs');
 
+console.log('Start');
+
 let data;
 
 readFile('./content/first.txt','utf8', (err,res)=>{
@@ -23,3 +25,4 @@ readFile('./content/first.txt','utf8', (err,res)=>{
         })
     })
 })
+console.log("End");
